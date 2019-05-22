@@ -14,11 +14,11 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5727708601
+              "duration": 6169108400
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:9"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:12"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 123801
+              "duration": 598483601
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:14"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:18"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 118800
+              "duration": 409998101
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:19"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:27"
             }
           },
           {
@@ -52,34 +52,46 @@
             "keyword": "When ",
             "name": "I search for \"anchor steam\"",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2241703800
             },
-            "line": 11
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:37"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click the search resultatet",
+            "name": "I click the search result",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 617124800
             },
-            "line": 12
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:49"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "name": "the descriptive text should contain \"Maltig, fruktig smak med inslag av torkade aprikoser\"",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1288007600
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:59"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 432892401
+              "duration": 2172663899
             },
             "hidden": true,
             "match": {
@@ -102,11 +114,11 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5575653000
+              "duration": 5276307200
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:9"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:12"
             }
           },
           {
@@ -115,11 +127,11 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 34200
+              "duration": 571317200
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:14"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:18"
             }
           },
           {
@@ -128,11 +140,11 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 79799
+              "duration": 28208901
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:19"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:27"
             }
           },
           {
@@ -140,9 +152,13 @@
             "keyword": "When ",
             "name": "I search for \"Ballast\"",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 3329553900
             },
-            "line": 16
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:37"
+            }
           },
           {
             "arguments": [],
@@ -158,7 +174,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 405006100
+              "duration": 231409100
             },
             "hidden": true,
             "match": {
@@ -175,6 +191,6 @@
     "line": 1,
     "name": "Individual assignment for G MVT18 Testdesign",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/Systembolaget/features/[US01]godkand.feature"
+    "uri": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\features\\[US01]godkand.feature"
   }
 ]

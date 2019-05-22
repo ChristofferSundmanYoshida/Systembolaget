@@ -1,43 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" tests="6" failures="0" skipped="3">
+    <testsuite name="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/Systembolaget/features/[US01]godkand.feature">
+            <property name="URI" value="C:\Users\Christoffer\Documents\Programmering\Uppgift-Systembolaget\Systembolaget\features\[US01]godkand.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="5.727708601">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="6.1691084">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.000123801">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.598483601">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.0001188">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.409998101">
         </testcase>
-        <testcase name="When I search for &quot;anchor steam&quot;" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I search for &quot;anchor steam&quot;" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="2.2417038">
         </testcase>
-        <testcase name="And I click the search resultatet" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click the search result" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.6171248">
         </testcase>
-        <testcase name="Then the descriptive text should contain &quot;Maltig, fruktig smak med inslag av torkade aprikoser&quot;" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the descriptive text should contain &quot;Maltig, fruktig smak med inslag av torkade aprikoser&quot;" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="1.2880076">
         </testcase>
     </testsuite>
-    <testsuite name="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" tests="5" failures="0" skipped="2">
+    <testsuite name="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" tests="5" failures="0" skipped="1">
         <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/Systembolaget/features/[US01]godkand.feature">
+            <property name="URI" value="C:\Users\Christoffer\Documents\Programmering\Uppgift-Systembolaget\Systembolaget\features\[US01]godkand.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="5.575653">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="5.2763072">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.0000342">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.5713172">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.000079799">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.028208901">
         </testcase>
-        <testcase name="When I search for &quot;Ballast&quot;" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I search for &quot;Ballast&quot;" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="3.3295539">
         </testcase>
         <testcase name="Then a report of how many articles there are should be created" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity">
             <skipped message="">

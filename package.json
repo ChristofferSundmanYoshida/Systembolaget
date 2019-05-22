@@ -4,6 +4,7 @@
   "description": "Christoffer MVT18 Systembolaget",
   "main": "index.js",
   "dependencies": {
+    "nodejs": "0.0.0",
     "selenium-cucumber-js": "^1.6.2"
   },
   "devDependencies": {},
