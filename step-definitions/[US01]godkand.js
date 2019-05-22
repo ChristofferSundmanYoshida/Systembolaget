@@ -68,13 +68,23 @@ this.Then(/^the descriptive text should contain Maltig, fruktig smak med inslag 
   });
 
 this.When(/^I search for Ballast$/, async function () {
-    // Write code here that turns the phrase above into concrete actions
+    // Input ballast into the searchfield and click the search button
+    
+    let inputField = await driver.findElement(by.css('#ProductSearchTextInput'))
+    let searchButton = await driver.findElement(by.css('#ProductSearchSubmitButton'))
+
+    await inputField.sendKeys('ballast')
+    await searchButton.click()
+
+    await sleep(2500) //added for visibility
 
 
   });
 
 this.Then(/^a report of how many articles there are should be created$/, async function () {
     // Write code here that turns the phrase above into concrete actions
+
+    
   
 
   });

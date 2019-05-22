@@ -5,17 +5,17 @@
             <property name="URI" value="C:\Users\Christoffer\Documents\Programmering\Uppgift-Systembolaget\Systembolaget\features\[US01]godkand.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="5.9699958">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="7.589481601">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.692088199">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.6392235">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.0581583">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.034418901">
         </testcase>
-        <testcase name="When I search for anchor steam" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="2.282154901">
+        <testcase name="When I search for anchor steam" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="2.9957629">
         </testcase>
-        <testcase name="And I click the search result" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.5970918">
+        <testcase name="And I click the search result" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.5789112">
         </testcase>
-        <testcase name="Then the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="1.420808301">
+        <testcase name="Then the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="1.7556907">
         </testcase>
     </testsuite>
     <testsuite name="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" tests="5" failures="0" skipped="0">
@@ -23,15 +23,15 @@
             <property name="URI" value="C:\Users\Christoffer\Documents\Programmering\Uppgift-Systembolaget\Systembolaget\features\[US01]godkand.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="5.240937401">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="5.034384601">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.595257601">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.7153085">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.041173799">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.0419511">
         </testcase>
-        <testcase name="When I search for Ballast" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.000108901">
+        <testcase name="When I search for Ballast" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="5.9710678">
         </testcase>
-        <testcase name="Then a report of how many articles there are should be created" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.0000887">
+        <testcase name="Then a report of how many articles there are should be created" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.0001285">
         </testcase>
     </testsuite>
 </testsuites>

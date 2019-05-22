@@ -14,7 +14,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5969995800
+              "duration": 7589481601
             },
             "line": 6,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 692088199
+              "duration": 639223500
             },
             "line": 7,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 58158300
+              "duration": 34418901
             },
             "line": 8,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I search for anchor steam",
             "result": {
               "status": "passed",
-              "duration": 2282154901
+              "duration": 2995762900
             },
             "line": 11,
             "match": {
@@ -66,7 +66,7 @@
             "name": "I click the search result",
             "result": {
               "status": "passed",
-              "duration": 597091800
+              "duration": 578911200
             },
             "line": 12,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser",
             "result": {
               "status": "passed",
-              "duration": 1420808301
+              "duration": 1755690700
             },
             "line": 13,
             "match": {
@@ -91,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2236563101
+              "duration": 412582599
             },
             "hidden": true,
             "match": {
@@ -114,7 +114,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5240937401
+              "duration": 5034384601
             },
             "line": 6,
             "match": {
@@ -127,7 +127,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 595257601
+              "duration": 715308500
             },
             "line": 7,
             "match": {
@@ -140,7 +140,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 41173799
+              "duration": 41951100
             },
             "line": 8,
             "match": {
@@ -153,11 +153,11 @@
             "name": "I search for Ballast",
             "result": {
               "status": "passed",
-              "duration": 108901
+              "duration": 5971067800
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:68"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:70"
             }
           },
           {
@@ -166,11 +166,11 @@
             "name": "a report of how many articles there are should be created",
             "result": {
               "status": "passed",
-              "duration": 88700
+              "duration": 128500
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:74"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:84"
             }
           },
           {
@@ -178,7 +178,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 380107600
+              "duration": 410024301
             },
             "hidden": true,
             "match": {
