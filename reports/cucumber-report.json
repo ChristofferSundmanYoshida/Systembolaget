@@ -1,0 +1,180 @@
+[
+  {
+    "description": "    Using aquired competences certain tasks must be completed using Selenium Webdriver at www.systembolaget.se.\n    This involves finding specific spirits, checking availability, open hours and the shopping cart.",
+    "elements": [
+      {
+        "id": "individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Finding Anchor Steam and taste",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I succesfully load www.systembolaget.se",
+            "result": {
+              "status": "passed",
+              "duration": 5727708601
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I confirm that I am 20 years old or above",
+            "result": {
+              "status": "passed",
+              "duration": 123801
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be presented with systembolagets main page",
+            "result": {
+              "status": "passed",
+              "duration": 118800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"anchor steam\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search resultatet",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the descriptive text should contain \"Maltig, fruktig smak med inslag av torkade aprikoser\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 432892401
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Finding Ballast and reporting quantity",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I succesfully load www.systembolaget.se",
+            "result": {
+              "status": "passed",
+              "duration": 5575653000
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I confirm that I am 20 years old or above",
+            "result": {
+              "status": "passed",
+              "duration": 34200
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be presented with systembolagets main page",
+            "result": {
+              "status": "passed",
+              "duration": 79799
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]godkand.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"Ballast\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a report of how many articles there are should be created",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 405006100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "individual-assignment-for-g-mvt18-testdesign",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Individual assignment for G MVT18 Testdesign",
+    "tags": [],
+    "uri": "C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/Systembolaget/features/[US01]godkand.feature"
+  }
+]

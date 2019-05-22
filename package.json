@@ -1,0 +1,23 @@
+{
+  "name": "systembolaget",
+  "version": "1.0.0",
+  "description": "Christoffer MVT18 Systembolaget",
+  "main": "index.js",
+  "dependencies": {
+    "selenium-cucumber-js": "^1.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristofferSundmanYoshida/Systembolaget.git"
+  },
+  "author": "Christoffer Sundman Yoshida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristofferSundmanYoshida/Systembolaget/issues"
+  },
+  "homepage": "https://github.com/ChristofferSundmanYoshida/Systembolaget#readme"
+}
