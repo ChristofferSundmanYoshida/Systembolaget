@@ -14,7 +14,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 7589481601
+              "duration": 6082591900
             },
             "line": 6,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 639223500
+              "duration": 577733900
             },
             "line": 7,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 34418901
+              "duration": 33402201
             },
             "line": 8,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I search for anchor steam",
             "result": {
               "status": "passed",
-              "duration": 2995762900
+              "duration": 2447926400
             },
             "line": 11,
             "match": {
@@ -66,7 +66,7 @@
             "name": "I click the search result",
             "result": {
               "status": "passed",
-              "duration": 578911200
+              "duration": 593114699
             },
             "line": 12,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser",
             "result": {
               "status": "passed",
-              "duration": 1755690700
+              "duration": 1683139299
             },
             "line": 13,
             "match": {
@@ -91,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 412582599
+              "duration": 647544900
             },
             "hidden": true,
             "match": {
@@ -114,7 +114,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5034384601
+              "duration": 5384094000
             },
             "line": 6,
             "match": {
@@ -127,7 +127,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 715308500
+              "duration": 584212599
             },
             "line": 7,
             "match": {
@@ -140,7 +140,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 41951100
+              "duration": 36384801
             },
             "line": 8,
             "match": {
@@ -153,7 +153,7 @@
             "name": "I search for Ballast",
             "result": {
               "status": "passed",
-              "duration": 5971067800
+              "duration": 2416455899
             },
             "line": 16,
             "match": {
@@ -166,7 +166,7 @@
             "name": "a report of how many articles there are should be created",
             "result": {
               "status": "passed",
-              "duration": 128500
+              "duration": 1215168600
             },
             "line": 17,
             "match": {
@@ -178,7 +178,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 410024301
+              "duration": 379627701
             },
             "hidden": true,
             "match": {

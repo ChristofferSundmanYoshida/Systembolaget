@@ -76,16 +76,25 @@ this.When(/^I search for Ballast$/, async function () {
     await inputField.sendKeys('ballast')
     await searchButton.click()
 
-    await sleep(2500) //added for visibility
+    await sleep(500) //added for visibility
 
 
   });
 
 this.Then(/^a report of how many articles there are should be created$/, async function () {
-    // Write code here that turns the phrase above into concrete actions
+    // this code will search for and grab the quantity  overall and in store of Ballast and show it in a consol.log
 
-    
-  
+    await sleep(500) //added for visibility
+
+    let fullAssortment = await driver.findElement(by.css('.full-assortment .ng-binding')).getText()
+    let storeAssortmentClick = await driver.findElement(by.css('.store-hits'))
+    await storeAssortmentClick.click()
+
+    await sleep(500) //needed some of the time to actually get something from getText
+
+    let storeAssortment = await driver.findElement(by.css('.store-hits .ng-binding')).getText()
+
+    console.log('det finns totalt ' + fullAssortment + ' flaskor i hela sortimentet, och ' + storeAssortment + ' stycken via ombud')  
 
   });
 
