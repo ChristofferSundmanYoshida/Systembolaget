@@ -1,2 +1,2 @@
 # Systembolaget
-Inlämningsuppgift systembolate Testdesign
+Inlämningsuppgift systembolaget Testdesign
