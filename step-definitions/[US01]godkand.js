@@ -34,7 +34,7 @@ this.Then(/^I should be presented with systembolagets main page$/, async functio
 
   // !! END OF BACKGROUND !! END OF BACKGROUND !! END OF BACKGROUND
 
-this.When(/^I search for "([^"]*)"$/, async function (arg1) {
+this.When(/^I search for anchor steam$/, async function () {
     // searches for "anchor steam"
     let inputField = await driver.findElement(by.css('#ProductSearchTextInput'))
     let searchButton = await driver.findElement(by.css('#ProductSearchSubmitButton'))
@@ -56,14 +56,26 @@ this.When(/^I click the search result$/, async function () {
 
   });    
 
-this.Then(/^the descriptive text should contain "([^"]*)"$/, async function (arg1) {
+this.Then(/^the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser$/, async function () {
     // Grabs the text from the description and asserts it against the requirement  
     
     let descriptionAnchor = await driver.findElement(by.css('#main .product-details')).getText()
 
     assert(descriptionAnchor.includes('Maltig, fruktig smak med inslag av torkade aprikoser'), 'Fel öl, prova en London Pride?')
 
+    await sleep(500) //added for visibility
 
+  });
+
+this.When(/^I search for Ballast$/, async function () {
+    // Write code here that turns the phrase above into concrete actions
+
+
+  });
+
+this.Then(/^a report of how many articles there are should be created$/, async function () {
+    // Write code here that turns the phrase above into concrete actions
+  
 
   });
 
