@@ -1,4 +1,4 @@
-let {$, $$, sleep} = require('./funcs.js')
+let {$, $$, sleep} = require('./funcs.js') // OBS !! OBS !! $ och $$ är inte lika som de Tomas gjorde! $=element $$=elements
 
 //diverse variabler
 
@@ -94,7 +94,7 @@ this.Then(/^a report of how many articles there are should be created$/, async f
 
     let storeAssortment = await driver.findElement(by.css('.store-hits .ng-binding')).getText()
 
-    console.log('det finns totalt ' + fullAssortment + ' flaskor i hela sortimentet, och ' + storeAssortment + ' stycken via ombud')  
+    console.log('Det finns totalt ' + fullAssortment + ' flaskor i hela sortimentet, varav ' + storeAssortment + ' stycken i butik eller via ombud.')  
 
   });
 

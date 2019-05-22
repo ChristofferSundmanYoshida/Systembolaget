@@ -16,3 +16,15 @@ Scenario: Finding Ballast and reporting quantity
     When I search for Ballast
     Then a report of how many articles there are should be created
 
+Scenario: Without using search confirming open hours in a specific store
+     Given that I DO NOT use the search function
+     When I find the open hours for Systembolaget, Burlöv 
+     Then I should confirm that it is closed during Kristi Himmelsfärd (05/30/2019)
+
+Scenario: Confirming set quantity of "Nanny State" at a specific store
+    When I search for Nanny State
+    And add it to the shopping cart
+    And navigate to the shopping cart
+    And specify the store to Hansa
+    Then I should confirm that there are more than 10 bottles left
+
