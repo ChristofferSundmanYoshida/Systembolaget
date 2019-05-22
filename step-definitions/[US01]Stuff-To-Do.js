@@ -82,7 +82,7 @@ this.When(/^I search for Ballast$/, async function () {
   });
 
 this.Then(/^a report of how many articles there are should be created$/, async function () {
-    // this code will search for and grab the quantity  overall and in store of Ballast and show it in a consol.log
+    // this code will search for and grab the overall quantity and in store of Ballast and show it in a consol.log (atm)
 
     await sleep(500) //added for visibility
 
@@ -90,13 +90,26 @@ this.Then(/^a report of how many articles there are should be created$/, async f
     let storeAssortmentClick = await driver.findElement(by.css('.store-hits'))
     await storeAssortmentClick.click()
 
-    await sleep(500) //needed some of the time to actually get something from getText
+    await sleep(500) //needed some of the time to actually get something from .getText below
 
     let storeAssortment = await driver.findElement(by.css('.store-hits .ng-binding')).getText()
 
     console.log('Det finns totalt ' + fullAssortment + ' flaskor i hela sortimentet, varav ' + storeAssortment + ' stycken i butik eller via ombud.')  
 
   });
+
+this.Given(/^that I DO NOT use the search function$/, function () {
+    
+    //Well, automatic pass - but it felt necessary to REALLY point out that search is not used/allowed
+    
+  });
+
+this.When(/^I find the open hours for Systembolaget, Burlöv$/, async function () {
+    // Write code here that turns the phrase above into concrete actions
+    
+
+  });
+
 
 };
 
