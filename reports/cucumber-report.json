@@ -10,15 +10,27 @@
         "steps": [
           {
             "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 644500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:37"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Given ",
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 6633427799
+              "duration": 6306999100
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
             }
           },
           {
@@ -27,11 +39,11 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 612962801
+              "duration": 852668000
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
             }
           },
           {
@@ -40,11 +52,11 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 86521201
+              "duration": 27203800
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
             }
           },
           {
@@ -53,11 +65,11 @@
             "name": "I search for anchor steam",
             "result": {
               "status": "passed",
-              "duration": 2486979299
+              "duration": 2597539900
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:37"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:43"
             }
           },
           {
@@ -66,11 +78,11 @@
             "name": "I click the search result",
             "result": {
               "status": "passed",
-              "duration": 608427300
+              "duration": 602057100
             },
             "line": 12,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:49"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:55"
             }
           },
           {
@@ -79,11 +91,11 @@
             "name": "the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser",
             "result": {
               "status": "passed",
-              "duration": 1790462600
+              "duration": 1751879799
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:59"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:65"
             }
           },
           {
@@ -91,11 +103,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 434105800
+              "duration": 470070000
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -110,15 +122,27 @@
         "steps": [
           {
             "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 90800
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:37"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Given ",
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5339995200
+              "duration": 5133917600
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
             }
           },
           {
@@ -127,11 +151,11 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 594839801
+              "duration": 581536800
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
             }
           },
           {
@@ -140,11 +164,11 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 41081300
+              "duration": 27227101
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
             }
           },
           {
@@ -153,11 +177,11 @@
             "name": "I search for Ballast",
             "result": {
               "status": "passed",
-              "duration": 2297964001
+              "duration": 2284784400
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:70"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:76"
             }
           },
           {
@@ -166,11 +190,17 @@
             "name": "a report of how many articles there are should be created",
             "result": {
               "status": "passed",
-              "duration": 1320514400
+              "duration": 1346438000
             },
             "line": 17,
+            "embeddings": [
+              {
+                "data": "RGV0IGZpbm5zIHRvdGFsdCAoMTIpIGZsYXNrb3IgaSBoZWxhIHNvcnRpbWVudGV0LCB2YXJhdiAoMTApIHN0eWNrZW4gaSBidXRpayBlbGxlciB2aWEgb21idWQuIA==",
+                "mime_type": "text/html"
+              }
+            ],
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:84"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:90"
             }
           },
           {
@@ -178,11 +208,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 385009000
+              "duration": 2309754901
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -197,15 +227,27 @@
         "steps": [
           {
             "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 30600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:37"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Given ",
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5136818800
+              "duration": 4934483601
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
             }
           },
           {
@@ -214,11 +256,11 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 578021601
+              "duration": 559273300
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
             }
           },
           {
@@ -227,11 +269,11 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 40268801
+              "duration": 31521500
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
             }
           },
           {
@@ -239,38 +281,56 @@
             "keyword": "Given ",
             "name": "that I DO NOT use the search function",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 116900
             },
-            "line": 20
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:108"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "I find the open hours for Systembolaget, Burlöv",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 3608321500
             },
-            "line": 21
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:114"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "name": "I should confirm that it is closed during Kristi Himmelsfärd (05/30/2019)",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1100742001
             },
-            "line": 22
+            "line": 22,
+            "embeddings": [
+              {
+                "data": "SW5mb3JtYXRpb24gcMOlIGhlbXNpZGFuIGfDpGxsYW5kZSAzMC81IC0gMjAxOTogS3Jpc3RpIGhpbW1lbGbDpHJkLCBTdMOkbmd0IA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:126"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 347868600
+              "duration": 398398501
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -285,15 +345,27 @@
         "steps": [
           {
             "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 26701
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:37"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Given ",
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 4901306499
+              "duration": 5060862400
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:12"
             }
           },
           {
@@ -302,11 +374,11 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 593146900
+              "duration": 569130201
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:18"
             }
           },
           {
@@ -315,11 +387,11 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 33679799
+              "duration": 34690600
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:27"
             }
           },
           {
@@ -372,11 +444,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 541282200
+              "duration": 381377900
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\Systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -389,6 +461,6 @@
     "line": 1,
     "name": "Individual assignment for G MVT18 Testdesign",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/Systembolaget/features/[US01]Stuff-To-Do.feature"
+    "uri": "C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/systembolaget/features/[US01]Stuff-To-Do.feature"
   }
 ]

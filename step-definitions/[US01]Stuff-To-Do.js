@@ -1,7 +1,7 @@
-let {$, $$, sleep} = require('./funcs.js') // OBS !! OBS !! $ och $$ är inte lika som de Tomas gjorde! $=element $$=elements
+let {$, $$, sleep} = require('./funcs.js') // OBS !! OBS !! $ och $$ är inte 100% som de Tomas gjorde! $=element $$=elements
 
 //diverse variabler
-
+//kanske
 
 
 
@@ -33,6 +33,13 @@ this.Then(/^I should be presented with systembolagets main page$/, async functio
   });
 
   // !! END OF BACKGROUND !! END OF BACKGROUND !! END OF BACKGROUND
+
+  //This is here to let me show in the cucumber report the info I get from the tests. See Ballast and Kristi Himmelsfärd scenarios
+this.Before(function (scenario, callback) {
+    scenarioName = scenario
+    callback();
+
+  });
 
 this.When(/^I search for anchor steam$/, async function () {
     // searches for "anchor steam"
@@ -94,7 +101,10 @@ this.Then(/^a report of how many articles there are should be created$/, async f
 
     let storeAssortment = await driver.findElement(by.css('.store-hits .ng-binding')).getText()
 
-    console.log('Det finns totalt ' + fullAssortment + ' flaskor i hela sortimentet, varav ' + storeAssortment + ' stycken i butik eller via ombud.')  
+    // Console.log is one way to report.
+    console.log('Det finns totalt ' + fullAssortment + ' flaskor i hela sortimentet, varav ' + storeAssortment + ' stycken i butik eller via ombud.')
+    //This attaches the information stored in variables to the cucumber report.
+    scenarioName.attach(`Det finns totalt ${fullAssortment} flaskor i hela sortimentet, varav ${storeAssortment} stycken i butik eller via ombud. `, 'text/html')  
 
   });
 
@@ -105,9 +115,46 @@ this.Given(/^that I DO NOT use the search function$/, function () {
   });
 
 this.When(/^I find the open hours for Systembolaget, Burlöv$/, async function () {
-    // Write code here that turns the phrase above into concrete actions
-    
+    // Click all the relevant buttons to move through the menues until you reach Burlöv, then click that too!
+    await driver.findElement(by.css("#sb-header .sb-nav-container a[href*='/butiker-ombud/']")).click()
 
+    await driver.findElement(by.css('div.col-sm-8 > div:nth-child(3) > div:nth-child(1) > ul > li:nth-child(11) > a')).click() //lös detta långa aber till platspekare
+
+    await sleep(1500)
+
+    await driver.findElement(by.css('div.cmp-region-info.col-sm-8 div:nth-child(1) a:nth-child(2)')).click() //lös detta långa aber till platspekare
+ 
+  });
+
+this.Then(/^I should confirm that it is closed during Kristi Himmelsfärd \((\d+)\/(\d+)\/(\d+)\)$/, async function (arg1, arg2, arg3) {
+    // Loop through all the open hours '.pull-right' and find Kristi Himmelsfärd, save it to a variable
+    // and assert it to make sure you can't buy Anchor Steam on that day...
+    
+    await sleep(1000) //arbitrary wait because this site is finicky
+
+    let jesus = await '';
+    let getJesusHere = await driver.findElements(by.css('.pull-right'));
+
+    for (let elem of getJesusHere) {
+      jesus = await elem.getText();
+      if (jesus.includes("Kristi")) {
+        break;
+  
+      }
+    }
+    //assert the information against the given correct information. If pass, well, pass.
+  assert(jesus === 'Kristi himmelfärd, Stängt', 'öppet på kristi flygare? Yey, ÖL!')
+    //attaches the information about kristi to the cucumber report for visibility.
+  scenarioName.attach(`Information på hemsidan gällande 30/5 - 2019: ${jesus} `, 'text/html')
+  console.log(jesus);
+
+  });
+
+this.When(/^I search for Nanny State$/, async function () {
+    // Write code here that turns the phrase above into concrete actions
+
+    
+    
   });
 
 
