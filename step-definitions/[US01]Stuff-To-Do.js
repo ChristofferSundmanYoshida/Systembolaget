@@ -2,7 +2,7 @@ let {$, $$, sleep} = require('./funcs.js') // OBS !! OBS !! $ och $$ är inte 10
 
 //diverse variabler
 //kanske
-
+let inputField, searchButton
 
 
 module.exports = function () {
@@ -43,8 +43,8 @@ this.Before(function (scenario, callback) {
 
 this.When(/^I search for anchor steam$/, async function () {
     // searches for "anchor steam"
-    let inputField = await driver.findElement(by.css('#ProductSearchTextInput'))
-    let searchButton = await driver.findElement(by.css('#ProductSearchSubmitButton'))
+    inputField = await driver.findElement(by.css('#ProductSearchTextInput'))
+    searchButton = await driver.findElement(by.css('#ProductSearchSubmitButton'))
 
     await inputField.sendKeys('anchor steam')
     await searchButton.click()
@@ -151,10 +151,42 @@ this.Then(/^I should confirm that it is closed during Kristi Himmelsfärd \((\d+
   });
 
 this.When(/^I search for Nanny State$/, async function () {
-    // Write code here that turns the phrase above into concrete actions
+    // Use the search field to search for Nanny State
+    inputField = await driver.findElement(by.css('#ProductSearchTextInput'))
+    searchButton = await driver.findElement(by.css('#ProductSearchSubmitButton'))
 
+    await inputField.sendKeys('nanny state')
+    await searchButton.click()
+
+    await sleep(500) //added for visibility
+
+  });
+
+this.When(/^add it to the shopping cart$/, async function () {
+    // adds Nanny State to the shopping cart
+
+    let addToBasket = await driver.findElement(by.css('.click-area .icon-basket')) 
+    await addToBasket.click()
+
+    await sleep(500)
+  });
+
+this.When(/^navigate to the shopping cart$/, async function() {
+    // goes to the shoppingcart, there are 2 .icon-basket but if you only specify one at this stage, it will allways go to cart.
+    let basket = await driver.findElement(by.css('.icon-basket')) 
+    await basket.click()
+
+    await sleep(500)
     
-    
+  });
+
+  this.When(/^specify the store to Hansa$/, async function () {
+    // Write code here that turns the phrase above into concrete actions
+    let cartSearch = await driver.findelements(by.css('.store-finder-container .icon'))
+    await cartSearch.click()
+
+    await sleep(2000)
+
   });
 
 
