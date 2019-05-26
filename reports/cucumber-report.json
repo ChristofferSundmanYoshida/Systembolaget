@@ -13,7 +13,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 486900
+              "duration": 417400
             },
             "hidden": true,
             "match": {
@@ -26,7 +26,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 6842223701
+              "duration": 6117367099
             },
             "line": 6,
             "match": {
@@ -39,7 +39,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 650802901
+              "duration": 880512300
             },
             "line": 7,
             "match": {
@@ -52,7 +52,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 31989299
+              "duration": 28730800
             },
             "line": 8,
             "match": {
@@ -65,7 +65,7 @@
             "name": "I search for anchor steam",
             "result": {
               "status": "passed",
-              "duration": 2411438201
+              "duration": 2435691699
             },
             "line": 11,
             "match": {
@@ -78,7 +78,7 @@
             "name": "I click the search result",
             "result": {
               "status": "passed",
-              "duration": 606417400
+              "duration": 615571700
             },
             "line": 12,
             "match": {
@@ -91,7 +91,7 @@
             "name": "the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser",
             "result": {
               "status": "passed",
-              "duration": 1629062600
+              "duration": 1804673300
             },
             "line": 13,
             "match": {
@@ -103,7 +103,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 430854500
+              "duration": 453509400
             },
             "hidden": true,
             "match": {
@@ -125,7 +125,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 50800
+              "duration": 55100
             },
             "hidden": true,
             "match": {
@@ -138,7 +138,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5576087201
+              "duration": 5395702000
             },
             "line": 6,
             "match": {
@@ -151,7 +151,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 561387100
+              "duration": 743707401
             },
             "line": 7,
             "match": {
@@ -164,7 +164,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 33253000
+              "duration": 29470801
             },
             "line": 8,
             "match": {
@@ -177,7 +177,7 @@
             "name": "I search for Ballast",
             "result": {
               "status": "passed",
-              "duration": 2430132999
+              "duration": 2569213800
             },
             "line": 16,
             "match": {
@@ -190,7 +190,7 @@
             "name": "a report of how many articles there are should be created",
             "result": {
               "status": "passed",
-              "duration": 1360617499
+              "duration": 1319141399
             },
             "line": 17,
             "embeddings": [
@@ -208,7 +208,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 430569801
+              "duration": 442788600
             },
             "hidden": true,
             "match": {
@@ -230,7 +230,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 34799
+              "duration": 32299
             },
             "hidden": true,
             "match": {
@@ -243,7 +243,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5503982299
+              "duration": 5381196299
             },
             "line": 6,
             "match": {
@@ -256,7 +256,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 575892001
+              "duration": 578135699
             },
             "line": 7,
             "match": {
@@ -269,7 +269,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 35821100
+              "duration": 48020400
             },
             "line": 8,
             "match": {
@@ -282,7 +282,7 @@
             "name": "that I DO NOT use the search function",
             "result": {
               "status": "passed",
-              "duration": 123899
+              "duration": 115599
             },
             "line": 20,
             "match": {
@@ -295,7 +295,7 @@
             "name": "I find the open hours for Systembolaget, Burlöv",
             "result": {
               "status": "passed",
-              "duration": 3993958900
+              "duration": 4346074700
             },
             "line": 21,
             "match": {
@@ -308,7 +308,7 @@
             "name": "I should confirm that it is closed during Kristi Himmelsfärd (05/30/2019)",
             "result": {
               "status": "passed",
-              "duration": 1082463701
+              "duration": 1097870901
             },
             "line": 22,
             "embeddings": [
@@ -326,7 +326,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 486375600
+              "duration": 455267000
             },
             "hidden": true,
             "match": {
@@ -348,7 +348,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 27700
+              "duration": 37101
             },
             "hidden": true,
             "match": {
@@ -361,7 +361,7 @@
             "name": "that I succesfully load www.systembolaget.se",
             "result": {
               "status": "passed",
-              "duration": 5461683799
+              "duration": 5577127101
             },
             "line": 6,
             "match": {
@@ -374,7 +374,7 @@
             "name": "I confirm that I am 20 years old or above",
             "result": {
               "status": "passed",
-              "duration": 568497100
+              "duration": 624694200
             },
             "line": 7,
             "match": {
@@ -387,7 +387,7 @@
             "name": "I should be presented with systembolagets main page",
             "result": {
               "status": "passed",
-              "duration": 37922801
+              "duration": 36709400
             },
             "line": 8,
             "match": {
@@ -400,7 +400,7 @@
             "name": "I search for Nanny State",
             "result": {
               "status": "passed",
-              "duration": 2468678601
+              "duration": 2047566999
             },
             "line": 25,
             "match": {
@@ -413,7 +413,7 @@
             "name": "add it to the shopping cart",
             "result": {
               "status": "passed",
-              "duration": 688479400
+              "duration": 595416600
             },
             "line": 26,
             "match": {
@@ -426,7 +426,7 @@
             "name": "navigate to the shopping cart",
             "result": {
               "status": "passed",
-              "duration": 2006973501
+              "duration": 2218063699
             },
             "line": 27,
             "match": {
@@ -439,7 +439,7 @@
             "name": "specify the store to Hansa",
             "result": {
               "status": "passed",
-              "duration": 2195778101
+              "duration": 2206391100
             },
             "line": 28,
             "match": {
@@ -452,9 +452,15 @@
             "name": "I should confirm that there are more than 10 bottles left",
             "result": {
               "status": "passed",
-              "duration": 639107200
+              "duration": 653551699
             },
             "line": 29,
+            "embeddings": [
+              {
+                "data": "ZGV0IMOkcjogNDcga3ZhciBob3MgSGFuc2EgaSBNYWxtw7Y=",
+                "mime_type": "text/html"
+              }
+            ],
             "match": {
               "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Uppgift-Systembolaget\\systembolaget\\step-definitions\\[US01]Stuff-To-Do.js:203"
             }
@@ -464,7 +470,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 452294300
+              "duration": 494749399
             },
             "hidden": true,
             "match": {

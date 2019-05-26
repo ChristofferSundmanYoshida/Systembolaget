@@ -159,7 +159,7 @@ this.When(/^I search for Nanny State$/, async function () {
     await inputField.sendKeys('nanny state')
     await searchButton.click()
 
-    await sleep(500) //added for visibility
+    await sleep(200) //added for visibility
 
   });
 
@@ -201,7 +201,7 @@ this.When(/^navigate to the shopping cart$/, async function() {
   });
   
   this.Then(/^I should confirm that there are more than (\d+) bottles left$/, async function (arg1) {
-    // This might be a very overdone solution, but I had fun and tried new things. Deal with it.
+    // This might be a very convoluted solution, but I had fun and tried new things.
     // It loops through the .stock classes and grabs the info when it finds "st"
     
     
@@ -219,6 +219,7 @@ this.When(/^navigate to the shopping cart$/, async function() {
       }
     }
 
+    //below will manipulate the result from above loop to only show the required number.
     nannyArr = await nanny.split('')
     result = await nannyArr.slice(23, 25)
     innanSlutResultat = await result.join('')
@@ -227,8 +228,7 @@ this.When(/^navigate to the shopping cart$/, async function() {
 
     assert(slutResultat > 10, 'Snart slut på Alkoholfri öl!!')
 
-
-
+    scenarioName.attach(`det är: ${slutResultat} kvar hos Hansa i Malmö`, 'text/html')
 
   });
 
