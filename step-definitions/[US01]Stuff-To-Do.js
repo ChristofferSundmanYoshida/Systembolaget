@@ -2,6 +2,7 @@ let {$, $$, sleep} = require('./funcs.js') // OBS !! OBS !! $ och $$ är inte 10
 
 //diverse variabler
 //kanske
+
 let inputField, searchButton
 
 
@@ -176,19 +177,59 @@ this.When(/^navigate to the shopping cart$/, async function() {
     let basket = await driver.findElement(by.css('.icon-basket')) 
     await basket.click()
 
-    await sleep(500)
+    //await sleep(500)
     
   });
 
   this.When(/^specify the store to Hansa$/, async function () {
-    // Write code here that turns the phrase above into concrete actions
-    let cartSearch = await driver.findelements(by.css('.store-finder-container .icon'))
-    await cartSearch.click()
+    // Searches within the cart after a specific store.
+    await sleep(500)
+    let cartSearch = await driver.findElement(by.css('div .cmp-storefinder-not-selected'))
+    await sleep(500)
+        await cartSearch.click() 
 
-    await sleep(2000)
+    await sleep(500) //arbitrary sleep because page is stupid
+
+    let storeSearchInput = await driver.findElement(by.css('#site-picker-input'))
+      await storeSearchInput.sendKeys('hansa')
+      await sleep(200)
+      
+    let hansaInTheCity = await driver.findElement(by.css('.cmp-storefinder-results-container'))
+    await sleep(200)
+    await hansaInTheCity.click()
+
+  });
+  
+  this.Then(/^I should confirm that there are more than (\d+) bottles left$/, async function (arg1) {
+    // This might be a very overdone solution, but I had fun and tried new things. Deal with it.
+    // It loops through the .stock classes and grabs the info when it finds "st"
+    
+    
+    await sleep(500) //required to let all the elements load properly
+
+    let nanny = await '';
+    let getNannyHere = await driver.findElements(by.css('li.stock'));
+
+    for (let elem of getNannyHere) {
+      nanny = await elem.getText();
+      if (nanny.includes('st')) {
+        await sleep(100) // <- probably required, because page is stupid
+        break;
+  
+      }
+    }
+
+    nannyArr = await nanny.split('')
+    result = await nannyArr.slice(23, 25)
+    innanSlutResultat = await result.join('')
+    slutResultat = await innanSlutResultat.toString()
+    console.log(slutResultat)
+
+    assert(slutResultat > 10, 'Snart slut på Alkoholfri öl!!')
+
+
+
 
   });
 
-
 };
-

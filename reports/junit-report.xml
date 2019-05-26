@@ -5,17 +5,17 @@
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/systembolaget/features/[US01]Stuff-To-Do.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="6.2724409">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="6.842223701">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.6118688">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.650802901">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.0365385">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.031989299">
         </testcase>
-        <testcase name="When I search for anchor steam" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="2.3717189">
+        <testcase name="When I search for anchor steam" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="2.411438201">
         </testcase>
-        <testcase name="And I click the search result" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.5918809">
+        <testcase name="And I click the search result" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="0.6064174">
         </testcase>
-        <testcase name="Then the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="1.6136702">
+        <testcase name="Then the descriptive text should contain Maltig, fruktig smak med inslag av torkade aprikoser" classname="individual-assignment-for-g-mvt18-testdesign;finding-anchor-steam-and-taste" time="1.6290626">
         </testcase>
     </testsuite>
     <testsuite name="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" tests="5" failures="0" skipped="0">
@@ -23,15 +23,15 @@
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/systembolaget/features/[US01]Stuff-To-Do.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="5.1241586">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="5.576087201">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.591081201">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.5613871">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.033891401">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="0.033253">
         </testcase>
-        <testcase name="When I search for Ballast" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="2.532911399">
+        <testcase name="When I search for Ballast" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="2.430132999">
         </testcase>
-        <testcase name="Then a report of how many articles there are should be created" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="1.188132799">
+        <testcase name="Then a report of how many articles there are should be created" classname="individual-assignment-for-g-mvt18-testdesign;finding-ballast-and-reporting-quantity" time="1.360617499">
         </testcase>
     </testsuite>
     <testsuite name="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" tests="6" failures="0" skipped="0">
@@ -39,43 +39,39 @@
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/systembolaget/features/[US01]Stuff-To-Do.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="6.2552951">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="5.503982299">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="0.5743206">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="0.575892001">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="0.034727601">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="0.0358211">
         </testcase>
-        <testcase name="Given that I DO NOT use the search function" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="0.0000675">
+        <testcase name="Given that I DO NOT use the search function" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="0.000123899">
         </testcase>
-        <testcase name="When I find the open hours for Systembolaget, Burlöv" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="3.6994418">
+        <testcase name="When I find the open hours for Systembolaget, Burlöv" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="3.9939589">
         </testcase>
-        <testcase name="Then I should confirm that it is closed during Kristi Himmelsfärd (05/30/2019)" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="1.1076779">
+        <testcase name="Then I should confirm that it is closed during Kristi Himmelsfärd (05/30/2019)" classname="individual-assignment-for-g-mvt18-testdesign;without-using-search-confirming-open-hours-in-a-specific-store" time="1.082463701">
         </testcase>
     </testsuite>
-    <testsuite name="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" tests="8" failures="0" skipped="2">
+    <testsuite name="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" tests="8" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Uppgift-Systembolaget/systembolaget/features/[US01]Stuff-To-Do.feature">
             </property>
         </properties>
-        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="5.1628472">
+        <testcase name="Given that I succesfully load www.systembolaget.se" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="5.461683799">
         </testcase>
-        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="0.817993601">
+        <testcase name="When I confirm that I am 20 years old or above" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="0.5684971">
         </testcase>
-        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="0.0266682">
+        <testcase name="Then I should be presented with systembolagets main page" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="0.037922801">
         </testcase>
-        <testcase name="When I search for Nanny State" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="2.131532799">
+        <testcase name="When I search for Nanny State" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="2.468678601">
         </testcase>
-        <testcase name="And add it to the shopping cart" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="0.6050276">
+        <testcase name="And add it to the shopping cart" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="0.6884794">
         </testcase>
-        <testcase name="And navigate to the shopping cart" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="5.2084415">
+        <testcase name="And navigate to the shopping cart" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="2.006973501">
         </testcase>
-        <testcase name="And specify the store to Hansa" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store">
-            <skipped message="">
-            </skipped>
+        <testcase name="And specify the store to Hansa" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="2.195778101">
         </testcase>
-        <testcase name="Then I should confirm that there are more than 10 bottles left" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I should confirm that there are more than 10 bottles left" classname="individual-assignment-for-g-mvt18-testdesign;confirming-set-quantity-of-&quot;nanny-state&quot;-at-a-specific-store" time="0.6391072">
         </testcase>
     </testsuite>
 </testsuites>
