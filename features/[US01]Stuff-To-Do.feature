@@ -1,4 +1,4 @@
-Feature: Individual assignment for G MVT18 Testdesign
+Feature: Individual assignment for MVT18 Testdesign
     Using aquired competences certain tasks must be completed using Selenium Webdriver at www.systembolaget.se.
     This involves finding specific spirits, checking availability, open hours and the shopping cart.
 
